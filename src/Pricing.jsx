@@ -10,10 +10,8 @@ const Pricing = () => {
   return (
     <div className={darkMode ? "dark" : ""}>
       <div className="relative bg-white dark:bg-gray-900 p-6 rounded-lg shadow-lg max-w-2xl mx-auto">
-        {/* Toggle Switch at the top right corner */}
         <div className="absolute top-4 right-4">
           <label htmlFor="darkModeToggle" className="inline-flex items-center cursor-pointer">
-            <span className="mr-2 text-sm text-gray-800 dark:text-gray-100">Light</span>
             <input
               type="checkbox"
               id="darkModeToggle"
@@ -28,7 +26,6 @@ const Pricing = () => {
                 }`}
               ></div>
             </div>
-            <span className="ml-2 text-sm text-gray-800 dark:text-gray-100">Dark</span>
           </label>
         </div>
 
